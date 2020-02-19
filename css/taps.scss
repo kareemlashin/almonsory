@@ -1,0 +1,84 @@
+#schooolLive {
+    .chose {
+        .col-md-3 {
+            background-color: #c7634e;
+            position: relative;
+            height: 45vh;
+
+            ul {
+                li {
+                    a {
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.chose {
+    .col-md-3 {
+        background-color: #c7634e;
+        position: relative;
+        height: 70vh;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        li:not(:last-child) {
+            border-bottom: 1px solid #ededed;
+
+        }
+
+        li {
+            a {
+                color: #fff !important;
+                font-weight: 700;
+                font-size: 12px;
+            }
+
+        }
+    }
+
+}
+
+.myServise {
+    cursor: pointer;
+}
+
+.description:not(:first-of-type) {
+    display: none;
+}
+
+p {
+    color: #777;
+    font-size: 15px;
+}
+
+
+@media (max-width:1055px) {
+    .chose {
+        .col-md-3 {
+            height: auto !important;
+        }
+
+    }
+
+    #schooolLive {
+        .chose {
+            .col-md-3 {
+
+                height: auto !important;
+            }
+        }
+
+    }
+}

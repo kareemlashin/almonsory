@@ -1,0 +1,25 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.description-details h2 {
+    color: #c7634e !important;
+    font-family: 'Rubik';
+    font-size: 30px;
+}
+
+.description-details p {
+    color: #222;
+    font-family: 'Poppins', sans-serif;
+}
+
+.description-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.description-details ul li {
+    line-height: 25px;
+}
+
+.description-details i {
+    color: #c7634e;
+}

@@ -1,0 +1,16 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+#list li {
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.activeX {
+  background-color: #c7634e;
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: #fff !important;
+}
